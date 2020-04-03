@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <com.kb.customviewapp.LovelyView
+        android:id="@+id/custview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:circleColor="#fff333"
+        custom:circleLabel="Hello"
+        custom:labelColor="#000"
+        />
+    <Button
+        android:id="@+id/clickmeBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        />
+
+</RelativeLayout>
